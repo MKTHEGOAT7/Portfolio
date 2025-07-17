@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+body {
+  font-family: Comic Sans MS;
+  background-color: lightblue;
+  overflow-x: hidden;
+}
+header {
+  background-color: lightskyblue;
+  position: sticky;
+  padding: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+  width: 100%;
+  border: 3px lightsteelblue solid;
+}
+nav a:hover {
+  color: white;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-style: bold;
+}
+nav ul {
+  list-style: none;
+}
+nav a:last-child {
+  margin-right: 0;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+.introduction {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.rating {
+}
